@@ -1,7 +1,7 @@
 grunt-pandoc
 ============
 
-Inspired by Takazudo's [custom coffeescript gruntjs task](https://github.com/Takazudo/gruntExamples) to make one for [pandoc](http://johnmacfarlane.net/pandoc/). 
+Inspired by Takazudo's [custom coffeescript gruntjs task](https://github.com/Takazudo/gruntExamples) to make a [gruntjs](http://gruntjs.com/) task for [pandoc](http://johnmacfarlane.net/pandoc/). 
 
 
 At the moment, it only compiles markdown documents to html. Additional features may be implemented in the future. 
