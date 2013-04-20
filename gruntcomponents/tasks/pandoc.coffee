@@ -15,7 +15,7 @@ module.exports = (grunt) ->
         log.writeln output
       onstderr: (output) ->
         log.writeln output
-        grunt.event.emit 'coffee.error', output
+        grunt.event.emit 'pandoc.error', output
       onsuccess: ->
         log.writeln "#{from}: compiled to #{to}"
         done true
@@ -39,7 +39,7 @@ module.exports = (grunt) ->
     utils.invokeCommand cmd, callbacks
     return @
 
-  grunt.registerMultiTask "pandoc", "compile CoffeeScript files.", ->
+  grunt.registerMultiTask "pandoc", "compile markdown files.", ->
 
     done = @async()
     files = @data.files
