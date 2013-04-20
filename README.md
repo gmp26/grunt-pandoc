@@ -9,6 +9,9 @@ At the moment, it only compiles markdown documents to html. Additional features 
 As a practical example, grunt would compile the pandoc user guide within `some_notes` folder to an html file of the same name in the same directory.
 
 
+Note: do `npm install`
+
+
 Public Domain
 =============
 
