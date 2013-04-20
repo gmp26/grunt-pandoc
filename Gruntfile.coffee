@@ -22,7 +22,7 @@ module.exports = (grunt) ->
 
       some_notes:
         files: 'some_notes/**/*.md'
-        css: ['pandoc.css']
+        css: 'pandoc.css'
 
 
 
